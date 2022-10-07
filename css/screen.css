@@ -239,8 +239,8 @@ input {
   width: 80%; /* Sizing of input areas + buttons */
   padding: 15px 30px;
   margin: 10px;
-  border: 2px solid;
-  border-radius: 10px;
+  border: 0px solid;
+  border-radius: 0px;
 }
 
 #input-age-verification {
@@ -261,7 +261,6 @@ input {
     width: 70%;
     margin: 10%;
     padding: 50px 50px;
-    border-style: none;
   }
 
   li {
@@ -271,7 +270,7 @@ input {
   h1 {
     padding: 30px 30px;
   }
-  
+
 }
 
 
