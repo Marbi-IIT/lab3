@@ -260,6 +260,10 @@ input {
   li {
     padding: 20px 20px;
   }
+
+  h1 {
+    padding: 30px 30px;
+  }
   
 }
 
