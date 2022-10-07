@@ -237,31 +237,31 @@ form {
 input {
   box-sizing: border-box; /* Mandatory property */
   width: 80%; /* Sizing of input areas + buttons */
+  padding: 15px 30px;
+  margin: 10px;
+  border: 2px solid;
+  border-radius: 10px;
+  
 }
 
-#age-verification {
+#input-age-verification {
   box-sizing: border-box;
-  width: 10%;
+  width: 100%;
 }
-@media screen and (min-width: 480px){
-  #container {
-   float: left;
-   clear: right;
-   margin: 3% auto 0 auto;
-   width: 50%;
+
+@media screen and (max-width: 750px) {
+  form {
+    width: 70%;
+    margin: 10%;
+    padding: 50px 50px;
+    border-style: none;
   }
- 
-  .fontsize {
-   font-size: 1em;
+
+  li {
+    padding: 20px 20px;
   }
- 
-  input {
-   width: 60%;
-  }
- 
-  #submit {
-   width: 55%;
-   font-size: 0.9em;
-  }
- }
+  
+}
+
+
 
