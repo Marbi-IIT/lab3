@@ -241,12 +241,19 @@ input {
   margin: 10px;
   border: 2px solid;
   border-radius: 10px;
-  
 }
 
 #input-age-verification {
-  box-sizing: border-box;
-  width: 100%;
+  padding: 16px 0 32px;
+}
+
+#input-age-verification input {
+  box-sizing: content-box;
+  width: auto;
+}
+
+#input-age-verification label {
+  display: inline;
 }
 
 @media screen and (max-width: 750px) {
