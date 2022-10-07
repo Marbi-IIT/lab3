@@ -207,6 +207,7 @@ label {
 
 /* ===== STATE STYLES ======= */
 html, body {
+  font-family: 'Times New Roman', Times, serif;
   height: 100%;
   width: 100%;
   margin: 0;
